@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: antiquewhite;
+}
+nav {
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+nav ul {
+  display: Flex;
+  align-items: center;
+  list-style-type: none;
+  height: 6rem;
+  background-color: black;
+  color: white;
+}
+nav ul li {
+  padding: 0 2rem;
+}
+.brand img {
+  width: 5rem;
+  padding: 0 0.2rem;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 2rem;
+  padding: 0 3rem;
+}
+.container {
+  min-height: 60vh;
+  background-color: black;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  display: flex;
+  margin: 2rem 20rem;
+  width: 70%;
+  border-radius: 1rem;
+  padding: 2rem;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.bottom {
+  position: sticky;
+  bottom: 0;
+  height: 13rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#myProgressBar {
+  width: 75%;
+  cursor: pointer;
+}
+.icons {
+  margin: 1rem 0;
+}
+.icons i {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.songItemContainer {
+  margin-top: 3rem;
+}
+.songItem {
+  display: flex;
+  width: 150%;
+
+  background-color: white;
+  color: black;
+  margin: 1rem 0;
+  border-radius: 3rem;
+
+  align-items: center;
+  justify-content: space-between;
+}
+.songItem img {
+  margin-left: 1rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+.timestamp {
+  margin: 0 2rem;
+}
+span {
+  font-size: 1.5rem;
+}
+.timestamp i {
+  cursor: pointer;
+}
+.song__info {
+  position: absolute;
+  left: 16rem;
+  top: 6rem;
+  width: 30rem;
+}
+.song__info img {
+  width: 15%;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+#gif {
+  margin: 0 1rem;
+}
